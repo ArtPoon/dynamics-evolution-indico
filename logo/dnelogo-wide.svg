@@ -31,8 +31,8 @@
      inkscape:cy="68.139241"
      inkscape:window-width="1665"
      inkscape:window-height="892"
-     inkscape:window-x="268"
-     inkscape:window-y="59"
+     inkscape:window-x="355"
+     inkscape:window-y="104"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg896" />
   <defs
@@ -98,7 +98,7 @@
      d="m 151.73438,63.057047 3.91406,7.35937 -5.78906,6 -7.49219,-3.65625 1.16016,-8.2539 z m 0,0"
      id="path849" />
   <g
-     style="fill:#0074ff;fill-opacity:0.7958"
+     style="fill:#0f3f79;fill-opacity:1"
      id="g853"
      transform="translate(-8.453125,-37.036699)">
     <use
@@ -108,10 +108,10 @@
        id="use851"
        width="100%"
        height="100%"
-       style="fill:#0074ff;fill-opacity:0.7958" />
+       style="fill:#0f3f79;fill-opacity:1" />
   </g>
   <g
-     style="fill:#ff0024;fill-opacity:0.8005"
+     style="fill:#ff7f00;fill-opacity:0.80049998"
      id="g857"
      transform="translate(-8.453125,-37.036699)">
     <use
@@ -121,7 +121,7 @@
        id="use855"
        width="100%"
        height="100%"
-       style="fill:#ff0024;fill-opacity:0.8005" />
+       style="fill:#ff7f00;fill-opacity:0.80049998" />
   </g>
   <g
      style="fill:#ffffff;fill-opacity:1"
