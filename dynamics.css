@@ -3,6 +3,9 @@
     conference.
 */
 
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
 /* ----------- Styles for the conference header ----------- */
 
 /*
@@ -52,7 +55,10 @@ on the left of the conference title.
 The style for the title text.
 */
 .conference-title-link {
-  font-size: 22pt;
+  font-size: 28pt;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  line-height: 1;
   display: block;
   padding: 25px 0;
   color: white;
