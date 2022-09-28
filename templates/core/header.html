@@ -1,0 +1,12 @@
+{% extends '~header.html' %}
+
+{% block logo %}
+  {%- set logo_url = indico_config.LOGO_URL or (indico_config.IMAGES_BASE_URL + '/logo_indico_bw.png') -%}
+  <a style="min-height: 60px;" href="{{ url_for_index() }}">
+    <img class="header-logo" src="{{ logo_url }}">
+  </a>
+  <h1>Dynamics & Evolution meetings</h1>
+{% endblock %}
+
+
+
