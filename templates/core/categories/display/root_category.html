@@ -1,0 +1,18 @@
+{% extends '~categories/display/root_category.html' %}
+
+{% block category_description %}
+  {% if category.description %}
+     <div class="category-description">
+       {{ category.description }}
+     </div>
+  {% else %}
+     <p>
+       {% trans -%}
+       Since 1993, the international Dynamics & Evolution of Human Viruses meeting (formerly the "international workshop on HIV Dynamics & Evolution") has brought together researchers with expertise in mathematical modeling, computational biology, and virology to foster interdisciplinary collaboration in the study of HIV and other viruses.
+       {%- endtrans %}
+     </p>
+  {% endif %}
+{% endblock %}
+
+
+
