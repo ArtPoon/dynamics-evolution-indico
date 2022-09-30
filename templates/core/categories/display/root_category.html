@@ -6,9 +6,18 @@
        {{ category.description }}
      </div>
   {% else %}
-     <p>
+     <p style="margin: 1em">
        {% trans -%}
-       Since 1993, the international Dynamics & Evolution of Human Viruses meeting (formerly the "international workshop on HIV Dynamics & Evolution") has brought together researchers with expertise in mathematical modeling, computational biology, and virology to foster interdisciplinary collaboration in the study of HIV and other viruses.
+       Since 1993, the international Dynamics & Evolution of Human Viruses meeting &mdash; formerly the "international workshop on HIV Dynamics & Evolution", and often shortened to "Dynamics" &mdash; has brought together researchers with expertise in mathematical modeling, computational biology, and virology to promote the exchange of new findings and ideas in the study of human viruses.
+       For instance, the first meetings of this series played a crucial role in determining the origin and evolution of human and non-human retroviruses, and the dynamics of virus replication within hosts.
+       {%- endtrans %}
+     </p>
+     <p style="margin: 1em">
+       {% trans -%}
+       'Dynamics' is generally a three day meeting, with attendance limited to about 150 participants to promote interaction.
+       All participants attend the same sessions in this single-track meeting, with a mix of peer-reviewed oral and poster presentations.
+       Sessions are themed on a variety of topics.
+       Past meetings have included sessions on software development, modeling within-host dynamics, phylodynamics and transmission cluster analysis. 
        {%- endtrans %}
      </p>
   {% endif %}

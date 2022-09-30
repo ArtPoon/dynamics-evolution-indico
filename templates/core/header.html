@@ -2,10 +2,15 @@
 
 {% block logo %}
   {%- set logo_url = indico_config.LOGO_URL or (indico_config.IMAGES_BASE_URL + '/logo_indico_bw.png') -%}
+  <span style="display: flex;">
   <a style="min-height: 60px;" href="{{ url_for_index() }}">
     <img class="header-logo" src="{{ logo_url }}">
   </a>
-  <h1 style="font-size: 2em; font-family: 'Roboto Light', sans-serif; color: white">The Dynamics & Evolution meetings</h1>
+  <h1 style="font-size: 2em; font-family: 'Roboto Light', sans-serif; color: white; margin: 17px 0 0 10px;">
+    Dynamics & Evolution of<br>
+    Human Viruses
+  </h1>
+  </span>
 {% endblock %}
 
 
